@@ -1,0 +1,12 @@
+const Discord = require("discord.js");
+const { MessageActionRow, MessageButton } = require("discord.js");
+const db = require("quick.db");
+
+module.exports = {
+    name: "nome",
+    aliases: ["aliases"],
+
+    run: async(client, message, args) => {
+
+    }
+}

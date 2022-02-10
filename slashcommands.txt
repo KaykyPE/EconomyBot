@@ -1,0 +1,21 @@
+const Discord = require("discord.js")
+const db = require("quick.db")
+
+module.exports =  {
+    name: "coins",
+    description: "💰 | Olhe o seu saldo",
+    type: "CHAT_INPUT",    
+    options: [
+        {
+            name: "usuario",
+            type: "USER",
+            description: "💰 | Olhe o saldo de um usuario",
+            required: false
+            
+        }
+    ],
+    
+    run: async (client, interaction, args) => {
+        
+    }
+}
